@@ -1,0 +1,9 @@
+Program Counter holds the address.
+Instruction in location, address is then placed in the program counter.
+Incriminted by 1.
+Points to the next memory location address.
+Two low pulses are sent out.  Low pulse on CS line switches on.  Low pulse on R/W line selects.
+Fetched.
+Electronics then works out what the code means in the decoder.
+The control unit then takes over and sends to arithmatic and logic unit.
+Added 1 in register A.
