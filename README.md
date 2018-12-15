@@ -9,6 +9,8 @@ Here is the breakdown by language:
 -CSS 100 hours (and SASS)
 -JavaScript 100 hours (react)
 
+This is actual time spent working within the languages and does not include time I spent reading information re: CS.
+
 In addition to learning languages, I also spent some time learning other subjects prior to this. My primary time as spent in machine learning and data analytics, which will be reflected in the timeTracker.  Data analytics is specific to the time I have spent learning via Python, I have several hundred hours working with data as a part of my PhD program.
 
 During this project, I will be using skills I have developed as a professional in project management (5-years), operations management (6-years), and organization development (5-years).

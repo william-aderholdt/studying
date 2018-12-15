@@ -30,3 +30,13 @@ Big-O is the number of times the operations would need to be run maximum to comp
 
 Theta - algorithims where the best case and worst case are the same.
 
+Big-O Equation
+f(n) is O(g(n)) IF C and n,
+    l(n) <= Cg(n) For All n>n(of)
+
+f(n) = 4n^2 + 16n + 2
+is f(n) => O(n^4)
+
+4n^2 + 16n + 2 < Cn^4, where C=constant.
+C=1, is the statement true?  It is true for some but not for others.
+

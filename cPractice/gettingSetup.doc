@@ -1,0 +1,6 @@
+Getting setup to compile C requires the following.
+
+1. Downloaded Visual Studio Community 2017
+2. Followed instuctions found here: https://www.youtube.com/watch?v=YOLN-t09-tM
+
+Start with a blank project.  Add main.cpp file under source files.
