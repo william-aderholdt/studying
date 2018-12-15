@@ -1,0 +1,32 @@
+Two algorithims can be measured.  Aymptotic complexity.  Big-O notation describes this.
+
+Analyzes how fast a program runs as input approach infinity.  
+
+Big-O describes the maximum number of operations needed to complete the task.
+
+asymptotically constant operation, O(1)
+example: storing the length of a string in a variable so you do not need to count it again.
+runtime does not change as the number of character's grows.
+drawback: stored in memory.
+
+linear time = n, O(n)
+example: counting numbers in a string.
+runtime increases linearly with number of inputs.  if x=1, then 2x=2.
+
+O(n^2)
+will not always run slower than O(n); however, as input size moves towards infinity, it will slow compared to O(n).
+wont be impacted
+
+O(logn)
+example binary search. cuts array size in half for each iteration. (log2 of the number in the string)
+for an array size of 8, this would take max 3 operations
+for an array size of 16, this would take max 4 operations
+
+O(n logn)
+
+Operations with an omega of 1 will best case complete the task in a single operation. Worst case: omega1-O(logn)
+
+Big-O is the number of times the operations would need to be run maximum to complete the task.
+
+Theta - algorithims where the best case and worst case are the same.
+
