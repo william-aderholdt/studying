@@ -1,0 +1,18 @@
+Github
+Repository = Project
+Initialize with a readme.
+Create a folder from github.
+Run cmd <enter>
+cd..
+cd David/documents
+dir = list of items in the directory.
+Git clone <url>
+Cd <file name>
+Create file
+Git status //shows the difference between computer and github.
+Git add <file name>
+Git commit -m “<message name>”
+Git push // sends files from the computer to github
+Git pull //pulls down the information from github
+Git add -A or git add . //adds all things from folder.
+If you ever forget the message… you press esc :wq.
