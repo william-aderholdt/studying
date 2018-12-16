@@ -1,13 +1,17 @@
 # Studying
 All of the information from my studying.
+ 
+Background: I am a fully self-taught developer.  I have used some online courses (i.e. freeCodeCamp) to learn languages to this point.  I did achieve a Responsive Web Design certification from freeCodeCamp.
 
-Background: I am a fully self-taught developer.  I have used some online courses (i.e. freeCodeCamp) to learn languages to this point.  
-I am starting with approximately 800 hours of coding experience.  This would be approximately 20 weeks, or 5 months, of programming experience in 40-hour a week job.
+I am starting with approximately 1170 hours of coding experience.  This would be approximately 29 weeks, or 7 months, of programming experience in 40-hour a week job.
 Here is the breakdown by language:
 -Python 400 hours (general lanaguage, )
--HTML 200 hours (HTML5)
--CSS 100 hours (and SASS)
--JavaScript 100 hours (react)
+-HTML 300 hours (HTML5)
+-CSS 300 hours (and SASS)
+-JavaScript 150 hours (jQuery, react)
+-Data Analytics 10 hours (through Python exclusively)
+-Machine Learning 10 hours (through Python exclusively)
+
 
 This is actual time spent working within the languages and does not include time I spent reading information re: CS.
 

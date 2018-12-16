@@ -1,8 +1,10 @@
-Languages:
--Python - 402 hours
--HTML - 200 hours
--CSS - 100 hours
--JavaScript - 100 hours
+Total Time: 1162 in languages, 25 in subjects, 1187 total (29.64 weeks, 7.4 months)
+
+Languages: 
+-Python 406 hours (general lanaguage, )
+-HTML 300 hours (HTML5)
+-CSS 300 hours (and SASS)
+-JavaScript 150 hours (jQuery, react)
 -Git - 3 hours (specific time learning new skills)
 -C - 1 hour
 -C++ - 1 hour 
@@ -11,9 +13,10 @@ Languages:
 Subjects:
 -Machine Learning - 10 hours
 -Data Analytics (through programming) - 10 hours
--Asymptotic Notation - 1 hour
+-Asymptotic Notation - 5 hours
 
 Journal:
+12/16/18 - Continued working on algorithmic complexity.  Worked on hacker rank for 4 hours, all Python.
 12/15/18 - Installed Visual Studio Community 2017.  Watched videos on asymptotic notation.  Worked with Python to express asyptotic notation.  Worked on gitHub.
     Created my first helloWorld application in C, C++, and C#.
 12/14/18 - Worked on setting up gitHub and properly learning commands associated with Git through the command prompt.

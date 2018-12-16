@@ -40,3 +40,5 @@ is f(n) => O(n^4)
 4n^2 + 16n + 2 < Cn^4, where C=constant.
 C=1, is the statement true?  It is true for some but not for others.
 
+The knapsack problem.  Packing problem
+
