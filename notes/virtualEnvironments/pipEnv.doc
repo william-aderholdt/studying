@@ -1,0 +1,5 @@
+to install: $ pip3 install pipenv
+
+to add python 3: $ pipenv --three
+
+to run the shell: $ pipenv shell
