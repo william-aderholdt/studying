@@ -16,3 +16,5 @@ Git push // sends files from the computer to github
 Git pull //pulls down the information from github
 Git add -A or git add . //adds all things from folder.
 If you ever forget the message… you press esc :wq.
+
+git checkout -b <branch name> //creates a gitHub branch.

@@ -1,0 +1,17 @@
+Brain for circuits.
+
+Circuit powered by p1 and p3
+
+usb port and power both have the be connected.
+
+c and processing.
+
+Arduino software can be downloaded at arduino.cc
+
+Microcontrollers, simple computers.  Can still process information fast.
+
+Shields are addons which can help complete tasks without having to complete circuits.
+
+Change device to arduino uno in tools.
+
+Sketches are programs you upload into the arduino.
