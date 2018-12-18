@@ -1,0 +1,75 @@
+Functional programming.
+
+Good code = scalable and maintable.
+
+10 years from now they should enjoy working on it.
+
+India had code that was similar to this.
+
+Functional and object oriented.
+
+Object oriented is programming using objects.  There is a big difference between using objects and object oriented way.
+
+Functional -> Objects -> Object Oriented way
+
+Programming in an object oriented way, high cohesion and loose coupling.
+
+Is it maintainable, scalable, testable?  You know this because cohesive.
+
+Cohesive == class, method, file, only does one thing.  Your thing does one thing.
+
+If you are not cohesive, then you are not testable.
+
+We always test our code.  Unit test == every path in code does what it is supposed to.
+
+Coupled, means are things dependent on each other.  Are things dependent on each other that shouldn't be.
+    Tight coupling is dependent on things that they need to be.
+
+Example: Base class called animal and then dog.  Dog inherits from animal.
+
+def Main (): == functions
+
+if __name__ == "__main__":
+    main()
+
+__name__ is a program variable built in. If it is == to "__main__" then it will run automatically.
+
+If you are running a quick script.  If you ever want to change this or move it to a full fledged app, or automate it has to be separate.
+
+Why do I need explain this much about my code.  Is it hard to read? Does it make sense?
+
+Programming by intention. Code reads like english.
+
+def Main (): == this is called a sergeant method.  Calls your cohesive units of code.
+    settings = Settings.GetSettings() == accessing settings object and getting settings.
+    weatherData = WeatherData.GetData() 
+    calculateBestTime(settings, weatherData)
+    printBestTime
+
+def Dave ():
+
+Imagine if we had filtered through a graphical app.  We want to calculate shortest path, two pounts, put a filter.  Only cares that the wind is blowing N->S.
+Algorithim would need to run only when the wind is favorable. 
+
+What if I want to know the best day, month, year to run?  What if I want to run for most oxygen.  
+
+In the real world you never have enough requirements.
+
+Next step:
+    Make the module more cohesive.
+    Make it more loosely coupled.
+    Make it filterable.
+
+
+For the future: Design pattern called a fisad.
+
+The hard part is the engineering part, the design part.
+
+
+Take-aways: 
+1. Programming by intention.
+2. Redundancy.
+3. Functions.
+4. Descriptive Variables.
+5. No i/j.
+6. Create a branch -> Functional clean-up one.

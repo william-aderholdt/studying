@@ -1,12 +1,12 @@
 Total Time: 1162 in languages, 25 in subjects, 1187 total (29.64 weeks, 7.4 months)
 
 Languages: 
--Python 410 hours (general lanaguage, )
+-Python 416 hours (general lanaguage, )
 -HTML 300 hours (HTML5)
 -CSS 300 hours (and SASS)
 -JavaScript 150 hours (jQuery, react)
 -Git - 3 hours (specific time learning new skills)
--C - 1 hour
+-C - 2 hour
 -C++ - 1 hour 
 -C# - 1 hour
 
@@ -16,12 +16,20 @@ Subjects:
 -Asymptotic Notation - 5 hours
 -Microprocessors - 2 hours
 -Computer Science Basics - 1 hour
--Web Scraping - 4 hours
+-Web Scraping - 8 hours
 
 Journal:
+12/18/18 - Watched HarvardCS50 - Week 1.
+
+12/17/18 - Worked on webscraping program and finished version 1.  Began HarvardCS50 - Week 0. Finished HarvardCS50 - Week 0. Spent time reading BeautifulSoup documents. 
+    Began working on HarvardCS50 - Week 1. Got feedback from professional program on code from webscraping project. Read about concepts: cohesion, coupling, redundancy, functional programming,
+    Object Oriented Programming. Read Microsoft's documents on C# in full.
+
 12/16/18 - Continued working on algorithmic complexity.  Worked on hacker rank for 4 hours, all Python. Spent time working on an arduino, setting up the IDE, and watching tutorial videos.
     Learned about joining open source projects on gitHub. Spent time working on virtualenvironment for a opensource project.  Researched common misconceptions self-taught programmers have.
-    Researched web scraping in Python, paying attention to the process.
+    Researched web scraping in Python, paying attention to the process. Began web scraping project.
+
 12/15/18 - Installed Visual Studio Community 2017.  Watched videos on asymptotic notation.  Worked with Python to express asyptotic notation.  Worked on gitHub.
     Created my first helloWorld application in C, C++, and C#.
+
 12/14/18 - Worked on setting up gitHub and properly learning commands associated with Git through the command prompt.

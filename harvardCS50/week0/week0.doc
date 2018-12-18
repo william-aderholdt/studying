@@ -13,3 +13,45 @@ Mental models for columns. 100 + 20 + 3 = 123
 0 0 1 is 1
 0 1 0 is 2
 0 1 1 is 3
+
+Electricity was the first thing important. 
+
+Transitors represent this binary.
+
+ASCII - Pattern of bits to store information.  For example 65 - A.
+
+72 - H
+73 - I
+33 - !
+
+UNICODE came after ASCII.
+
+RGB - Combines to form all colors.
+
+byte = 8 bits.
+
+byte can numbers, alphabet, symbols, colors.
+
+It is important to understand the lower level.
+
+Algorithim. Step by step instructions for solving a problem.
+
+Peanut butter and jelly sandwich.  Computers will only do what you tell them to do exactly.
+    example was the professor making a pbnj.
+
+Problems need to be broken up into their parts.
+
+Phonebook example of algorithims.
+1. Go through page by page.
+2. Go through 2 pages at a time and backtrack 1.
+3. Splitting in half each time.
+
+Time to Solve versus Size of Problem
+n, n/2, log(n).
+
+log(n) can handles doubling of input size very well.
+
+Recursion. Doing the same thing but making the problem smaller.
+
+Scratch is the first programmming language we are going to use in the first week.
+

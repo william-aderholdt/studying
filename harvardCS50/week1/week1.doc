@@ -1,0 +1,103 @@
+printf("hello, world\n");
+
+#include <stdio.h>
+
+int main(void)
+{
+    printf("hello, world\n");
+}
+
+main = function.
+stdio.h = standard input and output functionality.
+printf = print function.
+"hello, world\n" = string
+
+while (true)
+{
+    printf("hello world\n");
+}
+
+for (int i = 0; i < 50; i++)
+{
+    printf("hello world\n");
+}
+
+int i = 0 == initialize to 0.
+is i < 50, continue.
+i++ == add one to the variable i.
+
+if (x < y)
+{
+    printf("x greator than y"\n);
+}
+elseif (y > x)
+{
+    printf("y grator than x"\n);
+}
+
+compilers translate source code into machine code.
+
+Using CS50 IDE. Web application site with usernames and passwords.  There is nightmode.
+
+hello.c
+
+compiling with $ clang hello.c, will create a.out.
+
+cli = command line environment.
+
+./a.out
+
+If you make a mistake, you need to recompile the code.
+
+$ clang -o hello hello.c == outputs a program called hello.
+./hello
+
+cli commands:
+ls == list files
+cd == change directory.
+cd.. == go back one step.
+rmdir == remove directory.
+mkdir == make directory.
+
+Need to be precise about the type of data you are storing in your variables.
+
+make <name>
+
+Arthimetic operations: +, -, *, /, %
+
+floats = allow us to get decimals.
+
+float uses 32 bits.
+double uses 64 bits.
+char gets a character.
+
+= is assignment.
+== equality.
+
+' ' are used for single characters
+" " are for multiple characters
+
+|| is OR operations
+
+Fewer lines of code makes less mistakes.
+
+case can be used to say, if either of these two cases apply.
+
+if you are calling a variable on line 7 and then calling it on line 8, then the variable does not need to exist.
+
+Keep main function at the time.
+
+You can use a prototype, which lets the compiler something is going to be used later.
+
+int square(int n)
+
+RAM is finite.
+
+In computers you can only count so high.
+
+Example overflow // uses sleep so you can see it happen.
+
+1.0 / 10.0 = 1.0000000000055
+
+You can only represent a finite number of bits.
+You can overflow and underflow.
