@@ -5,10 +5,11 @@ Languages:
 -HTML 300 hours (HTML5)
 -CSS 300 hours (and SASS)
 -JavaScript 150 hours (jQuery, react)
+-C# - 8 hour
 -Git - 3 hours (specific time learning new skills)
 -C - 2 hour
 -C++ - 1 hour 
--C# - 1 hour
+
 
 Subjects:
 -Machine Learning - 10 hours
@@ -19,7 +20,8 @@ Subjects:
 -Web Scraping - 8 hours
 
 Journal:
-12/18/18 - Watched HarvardCS50 - Week 1.
+12/18/18 - Watched HarvardCS50 - Week 1. Converted runPredictor program to C# code (still in progress).  Spent most of the day working on C#.  Read the documents, watched tutorials, read
+    about tools I would be using for the program.
 
 12/17/18 - Worked on webscraping program and finished version 1.  Began HarvardCS50 - Week 0. Finished HarvardCS50 - Week 0. Spent time reading BeautifulSoup documents. 
     Began working on HarvardCS50 - Week 1. Got feedback from professional program on code from webscraping project. Read about concepts: cohesion, coupling, redundancy, functional programming,
