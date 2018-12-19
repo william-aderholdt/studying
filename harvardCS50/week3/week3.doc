@@ -1,0 +1,12 @@
+RAM - bytes.
+
+Location in memory.  Needed to put the null bytes into the locations as well. 
+
+\0 is to store NULL.
+
+A sequence is an array or [].
+
+If we want to terminate, in initals. We need the fourth byte to terminate string.
+
+Iterate with a for loop over the characters of the names.
+

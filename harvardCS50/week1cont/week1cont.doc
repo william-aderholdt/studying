@@ -1,0 +1,32 @@
+./a.out - Run the program without specifying the name.
+
+Preprocessing your code, takes the libraries being used.  Finds and replaces information within the code.
+
+Compiler takes user friendly code and then preprocesses it. This is then taken and converted into machine code.
+
+Binary.
+
+This is what the computer understands.  Compiling.
+
+Correctness -> Style -> Design.
+
+Loops give us the power to expand what we are working on.
+
+ctrl + c will stop a program from running.
+
+do {
+    int n = get_int("Positive number: ");
+}
+while(n <= 0); // do... while makes it so someone has to give us a positive number.
+
+Error: Unused variable and variable undeclared.
+
+Scope: {} == most recently opened and closed braces.
+
+Need to declare variable and not have anything with it yet.  Do not redeclare the variable later.
+
+int n;
+
+n = get_int("Positive number: ");
+
+[] is the place holder for digits in a string, array.
