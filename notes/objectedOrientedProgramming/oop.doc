@@ -17,3 +17,127 @@ Person person = new Person();
 
     Change property.  person.FirstName = "Alice";
                         person.LastName = "Romanson;
+
+public = everyone can access it.
+
+class Person {
+    public string FirstName;
+
+    public void Walk() {
+        ...
+    }
+}
+
+You can do multiple classes in one file; however, it is better to keep classes separate.
+
+Class name should be c# file name,.
+
+You can call the class by.
+
+Person person = new Person();
+person.FirstName = "Alice";
+
+Class constructor.
+
+When a class is created the constructor is the first method called.
+
+Whenever you call new, the constructor is implicitly called.
+
+public Person() { //exact name as your class name
+    Console.WriteLine("Person is created with name" + FirstName);
+}
+
+You can have multiple constructors by overloading.
+
+Class destructor is used to clean up memory.  Garbage collectors do this automatically.
+
+~Person  // the destructor.
+
+person = null; // causes the class destructor to be called.
+GC.Collect(); // calls the garbage collector.
+
+Class is a datatype.
+
+var // I am too lazy figure out the datatype.
+var person = new Person();
+
+dynamic // resolves at runtime when you need the object.
+var // resolves at compile time.
+
+
+static modifier.
+
+If you are marking a class as static, everything must be static in that class.
+
+public static members can be accessible by class name only from anywhere.
+
+public //public method
+void //private method
+static void//static private method.
+
+Static is shared across all users.
+Private is for each user.
+
+Passing reference parameter.
+
+ref string x (change x) -> ="Changed".  Only for premitive types needs to be passed through reference.
+
+String is immutable.
+
+[access modifier] [modifier] [class][<generic>] identifier {
+
+}
+
+modifiers static, sealed, partial, sealed partial.  Static cant be created as well as inherited.
+    Sealed cant be inherited.
+    Partial: Same class merge on compile if within the same namespace.
+    Sealed partial: Can't inherit + merge with same name class on compile time.
+
+namespace can be across multiple files.
+
+Class conclusion.  When you create a new class, you create a type of data.
+
+When you see a data structure class.  Various types of data types.
+
+
+Inheritance: Most important topic in OOP.
+
+Getting something from previous generation.
+
+Person -> Student & Teacher
+
+Same things across classes should not repeat. DRY (do not repeat).
+
+Student is a Person
+Teacher is a Person
+
+Person is a superclass.
+
+Class Student inherits from Person {
+
+}
+
+Class Student:Person {
+
+}
+
+SuperClass type = new SubClass();
+
+
+Class Person {
+
+}
+
+Class Student:Person {
+
+}
+
+Class Teacher:Person {
+
+}
+
+Person has less properities than a student.  A person cant be created from person.
+
+
+Calling the base class constructor. A:B.
+
