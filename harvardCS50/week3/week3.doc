@@ -10,3 +10,52 @@ If we want to terminate, in initals. We need the fourth byte to terminate string
 
 Iterate with a for loop over the characters of the names.
 
+Insertion sort.  <Inserting letters or number in their appropriate location.>
+
+Sorting values. 
+
+Bubble Sorting. <Switching based on order>
+
+Selection Sort. <Sort based on min to location>
+
+Size of the problem.
+
+Running time.
+
+Bubble Sort.  We compared each set of numbers and sorted based numbers. n^2/2 - n/2.
+    1,000,000.  Can remove n/2.  O(n^2).
+
+BigO is the maximum steps needed.
+
+O(n^2)
+O(n log n)
+O(n)
+O(logn)
+O(1)
+
+Theta Notation - 
+
+Omega Notation
+
+Merge Sort. <Sort left half, sort right half, merge the remainder.>
+
+In c you get to choose the names of your inputs for a function, it does not have to be the same one you passed in
+    when calling the function.
+
+Recursion.  The act of a function calling itself.
+
+Sum 0-m
+
+m + Sum of everything < m.
+
+Handing back only part of the problem. If m = 0, the function is not called.
+
+Use recursion rather than a for loop to call a function.
+
+Merge Sort [4 2 7 5 6 8 3 1] -> [4 2 7 5][6 8 3 1] -> [4 2][7 5][4 2][7 5] -> [4][2]
+    [2 4][5 7][6 8][1 3] -> [2 4 5 7][1 3 6 8] -> [1 2 3 4 5 6 7 8]
+
+Merge sort is fundamentally faster because we are dividing the program in half.
+
+log<2> of 8 is 3.
+

@@ -1,0 +1,19 @@
+Objected oriented programming makes changes to a system easier.  Helps to stay flexible.
+
+Class, Object, Inheritance, Encapsulation, Polymophism.
+
+Class - Organizes code.  Abstract representation. Collection of methods and properties.  Data and logic.
+    UML - Unified Modeling Language
+    Person (first name, last name, date of birth, address, gender)(behaviors: methods)
+    Classes organizes code.
+
+Class is the blueprint of the house, object is the house itself. 
+
+Person person = new Person();
+    Where: Person is the datatype
+            person is the object
+            new
+            Person(): is the class
+
+    Change property.  person.FirstName = "Alice";
+                        person.LastName = "Romanson;
