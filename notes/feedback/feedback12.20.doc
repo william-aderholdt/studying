@@ -1,0 +1,100 @@
+1) Don't store binaries in github. You can build them locally. Especially with a small program, it doesn't take long at all.
+2) Assets should never stay at the root. Create a sub folder called "assets" or something. Store your image files in here.
+3) A text file is ok for your purposes. But look into using xml or json. It will make your life a lot easier, and scales.
+4) Never checkin your .user file. Make use of .gitignore and ignore this file. This is user specific stuff other users don't need.
+5) Try not to keep your source files at the root either. Try and organize them a little better.
+6) Not a big deal, but try to capitalize your project name.
+
+
+Program.cs :
+1) Passing objects to methods is very expensive and can use a lot of resources. Especially on phones with lower amount of memory.
+Same thing goes for lists. Will slow things down tremendously. Pass by reference. Or reorganize your code.
+2) ALWAYS use a public, private, protected identifiers.
+3) use naming convensions when declaring variables.
+Example:
+        member variables:     m_variable, or mVariable
+        local scope variables: l_variable,  or lVariable
+        global scope:              g_variable, or gVariable
+
+The naming convention is up to you, but always keep the same across different programs. Standardize it!
+
+4) Create a class for everything. Get in the habit of it. Better to create more classes, then too little.
+    a) Create one for your web request. Have a method for each page it needs to pull. 
+    b) As well as one that knows how to parse each page... Maybe create a parser class?
+
+5) web.Load("https://weather.com/weather/hourbyhour/l/" + userSettings.ZipCode + ":4:US"); 
+Surround it in a try / catch. Ex: What happens if weather.com is down? What if zip code is invalid? What if user isn't from the US? What response will this give you when its valid, not valid? Try to think of every case possible and handle it in some way. 
+
+6) Modify your Settings.cs class with getters and setters for every variable.
+This way this doesn't need to be set in main. "userSettings.Location = locationData[0].InnerText.Substring(0, locationData[0].InnerText.Length - 15);"
+This will also allow you to set all of your Settings.cs variables as private. Which is a lot safer.
+
+Example:
+        public bool HasManualUploadNotifications {
+            get {
+                return this.hasManualUploadNotificationsField;
+            }
+            set {
+                this.hasManualUploadNotificationsField = value;
+            }
+        }
+		
+
+7) This works, and in some cases its better. Example: If you need the variable i after the loop finishes. But in this case its not needed.Try using a for loop. 
+
+  int i = 0;
+  while (i < timeData.Count){
+	i++;
+  }
+  
+Turns into
+  
+i.e.
+	for(int i = 0; i < timeData.Count; ++i){
+		// your stuff
+	}
+	
+Also when using 'i++', if you can use '++i', use it. its better practice.
+Also name 'i' to something else. like 'lTimeDataIndex'
+
+
+8) I see you're returning "return weatherCardList;", but its not being used anywhere? Is this needed, or can you return void instead?
+
+9) Your comments should remain above the function definition. 
+Always define, in english what each argument is in the comment. As well as a general description of the method.
+
+        static void PrintBestTimes(Settings userSettings, List<WeatherCardClass> weatherCardList)
+            //Function to print the best running times.
+			
+			======>
+			======>		
+			======>
+			
+         /*
+			Function Desc: Function to print the best running times.
+			Arg1 Desc:
+			Arg2 Desc:
+			RtnValue Desc:
+         */
+	static void PrintBestTimes(Settings userSettings, List<WeatherCardClass> weatherCardList)
+
+
+For your Settings.cs
+
+1) You can create another method called 'load' or 'loadSettings', then call that from your constructor.
+2) You can use an xml instead of a text file so you can easily parse through the configs.
+    a) What happens if the entries in the .txt get mixed around? Like instead of ZipCode being on line 1, Hours is.
+
+3) Seems like you're guessing to how long each string is going to be? - 'ZipCode = settingsCapture[0].Substring(8);'
+     a) Also, what happens if I enter in a letter instead of a number?
+
+4) Using a relative path is probably better. - string[] settingsCapture = System.IO.File.ReadAllLines(@"F:\projects\runPredictor\runPredictor\settings.txt");
+
+5) Remember to use private when possible. i.e. instead of 'public string Location;' use 'private string Location;'. Then use getters and setters to retrieve/modify it.
+
+
+WeatherCardClass.cs
+
+I attached a new copy with some modifications as examples. So I wont spend too much time on this.
+
+1) Seems like your passing in 'HtmlAgilityPack.HtmlNode timeData' and expecting your class to handle it. This should be handled outside of this class. You can create a class that wraps around HtmlAgilityPack.HtmlNode  that has methods like 'getTimeData'. That way youre not doing this in your weathercard class.

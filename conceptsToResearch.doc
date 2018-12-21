@@ -26,3 +26,18 @@ Interpreters
 Programming Languages/Paradigms
 Software Development Lifecycle
 Specialization (ex. business intelligence)
+
+
+
+C# Concepts:
+Get; Set;
+Object References.
+List References.
+Public, Private, Protected Identifiers. (use private when possible)
+Classes.
+Try and Catch.
+For Loops [ for(int lTimeDataIndex = 0; lTimeDataIndex <timeData.Count; ++i)]
+Comments above the function definition
+Pulling settings from XML
+Errors
+Relative path

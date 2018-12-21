@@ -5,7 +5,7 @@ Languages:
 -HTML 300 hours (HTML5)
 -CSS 300 hours (and SASS)
 -JavaScript 150 hours (jQuery, react)
--C# - 24 hours
+-C# - 40 hours
 -Git - 3 hours (specific time learning new skills)
 -C - 2 hour
 -C++ - 1 hour 
@@ -23,6 +23,9 @@ Courses Completed:
 
 
 Journal:
+12/21/18 - Going back through the feedback I received on the Run Predictor programa and began to implement everything I could.  Researched things that I was unfamiliar wth.
+    Preparing for a trip, so I spent time getting my laptop ready to work on C# code over the holidays.
+    
 12/20/18 - Ported runPredictor project to C# from Python.  Added functionality. Going to be working on a user interface next. Completed the runPredictor c# command line. Had the code looked
     at by a professional in the field.  They were able to give several pages of feedback which is going to be very helpful moving forward.
 
