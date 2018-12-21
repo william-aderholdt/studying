@@ -5,7 +5,7 @@ Languages:
 -HTML 300 hours (HTML5)
 -CSS 300 hours (and SASS)
 -JavaScript 150 hours (jQuery, react)
--C# - 8 hour
+-C# - 24 hours
 -Git - 3 hours (specific time learning new skills)
 -C - 2 hour
 -C++ - 1 hour 
@@ -23,7 +23,10 @@ Courses Completed:
 
 
 Journal:
-12/19/18 - Watched HarvardCS50 - Week 1 Continued. Watched HarvardCS50 - Week2.  Watched HarvardCS50 - Week 3.
+12/20/18 - Ported runPredictor project to C# from Python.  Added functionality. Going to be working on a user interface next. Completed the runPredictor c# command line. Had the code looked
+    at by a professional in the field.  They were able to give several pages of feedback which is going to be very helpful moving forward.
+
+12/19/18 - Watched HarvardCS50 - Week 1 Continued. Watched HarvardCS50 - Week2.  Watched HarvardCS50 - Week 3. Worked on runPredictor.
 
 12/18/18 - Watched HarvardCS50 - Week 1. Converted runPredictor program to C# code (still in progress).  Spent most of the day working on C#.  Read the documents, watched tutorials, read
     about tools I would be using for the program.
