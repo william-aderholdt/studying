@@ -1,0 +1,42 @@
+using System.Xml
+
+XmlDocument doc = new XmlDocument ();
+
+
+Reading:
+
+<root>
+    <car>
+        <model> x </model>
+    </car>
+</root>
+
+Always need to have output always as an embedded resource.
+
+foreach(XmlNode node in doc.DocumentElement)
+{
+    string name = node.Attributes[0].InnerText;
+    if(name == searchInput.Text)
+    {
+        foreach(XmlNode child in node.ChildNodes)
+        {
+            searchResults.Items.Add(child.InnerText);
+        }
+    }
+}
+
+Creating an XML file (using form)
+
+XmlTextWriter xmlWriter = new.XmlTextWriter(insert path, Encoding.UTF8);
+xmlWriter.Formatting. Formatting.Indented;
+xmlWriter.WriteStartElement("People");
+xmlWriter.WriteStartElement("Person");
+xmlWriter.WriteStartElement("Name");
+xmlWriter.WriteString(textbox1.Text); //or variable to put the stritn into.
+xmlWriter.WriteEndElement(); //name
+xmlWriter.WriteStartElement("Age");
+xmlWriter.WriteString(intVariable.Value.ToString());
+xmlWriter.WriteEndElement();
+xmlWriter.WriteEndElement(); //Person
+xmlWriter.WriteEndElement(); //People
+xmlWrite.Close();

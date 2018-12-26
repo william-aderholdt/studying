@@ -1,0 +1,40 @@
+Nuget package: Newtonsoft.Json
+
+class Student
+{
+    public int Id {get; set;}
+    public string Name {get; set;}
+    public string Degree {get; set;}
+    public List<string>
+
+}
+
+Student student = new Student()
+    {
+        Id = 1,
+        Name = "David"
+        Degree = "Biology"
+        Hobbies = new List<string<>()
+        {
+            "Readying",
+            "Playing",
+        }
+    };
+string strResultJson = JsonConvert.SerializeObject;
+File.WriteAllText(@"student.json", strResultJson);
+Console.WriteLine("Stored!");
+
+==READ==
+
+strResultJson = String.Empty;
+strResultJson = File.ReadAllText(@"student.json");
+JsonConvert.DeserializeObject<Student>(strResultJson);
+
+
+string.Format("StudentInforamtion:\n\t Id: {0},...) string.Join(",",Hobbies.ToArray() )
+
+var dictionary = JsonConvert.DeserializeObject<IDictionary>(strResult);
+foreach (DictionaryEntry Variable in dictionary)
+{
+    Console.WriteLine(entry.Key + ": " + entry.Value);
+}
