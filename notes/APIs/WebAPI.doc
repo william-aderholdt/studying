@@ -1,0 +1,85 @@
+WebAPI
+
+using System.Net.Http;
+using System.Net.Http.Headers;
+
+public static HttpClient ApiClient { get; set; }; 
+
+we made it static so we only opened it once per application.
+Thread safe, and multiple concurrent calls.
+Class ApiHelper 
+    public static void InitializeClient()
+    {
+        ApiClient = new HttpClient();
+        ApiClient.BaseAddress = new Uri("http://xkcd.com/"); //the base address used if you are only using one web address.
+        ApiClient.DefaultRequestHeaders.Accept.Clear();
+        ApiClient.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"))
+    }
+
+ApiHelper.Initialize Client();
+
+//Browser for application
+
+Add Class //loading comic strip. Comic Processor.
+{
+    public class ComicProcessor
+    {
+
+        public async Task<ComicModel> LoadComic(int comicNumber = 0) //0 is current comic.
+        {
+            string url = "";
+
+            if (comicNumber >0)
+            {
+                url = $"https://xkcd.com/{ comicNumber }/infor.0.json";
+
+            }
+            else
+            {
+                url = "https://xkcd.com/info.0.json";
+            }
+
+            using (HttpResponseMessage response = await ApiHelper.ApiClient.GetAsync(url))
+            {
+                if (response.IsSuccessStatusCode)
+                {
+                    //need to look at json data to understand what information is going to come back.
+                    ComicModel comic = await response.Content.ReadAsAsync<ComicModel>();
+                    //tries to convert information into format you specified ie Num and Img
+                    //unless you care about the data, do not add it.
+                   
+
+                    return comic;
+                }
+                else
+                {
+                    throw new Exception(response.ReasonPhrase);
+                }
+            }
+        }
+    }
+}
+
+public class ComicModel
+{
+    public int Num { get; set; }
+    public string Img { get; set; }
+}
+
+private async Task LoadImage(int imageNumber)
+{
+    var comic = await ComicProcessor.LoadComic(imageNumber);
+
+    if (imageNumber == 0)
+    {
+        maxNumber = comic.Num;
+    }
+
+    currentNumber = comic.Num;
+
+    var uriSource = new Uri(comic.Img, uriKind.Absolute);
+    //uri = uniform resource
+    comicImage.Source = new BitmapImage(uriSource);
+}
+
+you cant make a constructor asynchronus.
