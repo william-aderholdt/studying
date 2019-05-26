@@ -1,0 +1,9 @@
+This project will use two pages.  A sign-in which utilizes a basic username
+and password, and then a todo page which creates a entry for each todo item.
+Potentially will look at some note-taking funcationality within the todo
+items.
+
+Libraries Used:
+-MySql
+-Tkinter
+
